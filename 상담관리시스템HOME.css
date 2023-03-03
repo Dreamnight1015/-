@@ -56,11 +56,14 @@ body{
     font-weight: 600;
     font-size: 15px;
 }
-.header .headerbottom .icon{
-    width: 115px;
+.header .headerbottom .text{
+    z-index: 10000;
     position: absolute;
-    top: 15%;
-    margin: 0 0 0 340px;
+}
+.header .icon{
+    width: 30%;
+    margin: -10% 0 0 68%;
+    position: relative;
 }
 .middle{
     background-color: rgb(245,245,245);
@@ -73,9 +76,9 @@ body{
     display: flex;
     background-color: white;
     margin: 0 auto;
-    width: 450px;
+    width: 88%;
     justify-content: space-between;
-    padding: 1%;
+    padding: 1% 5%;
     border-radius: 10px;
     box-shadow: 5px;
     border: 1px solid rgba(0,0,0,0.1);
@@ -84,6 +87,7 @@ body{
     top: 30%;
     margin: 0 0 0 25px;
     height: 90px;
+    max-width: 450px;
 }
 .middle .button1 .text .title{
     font-size: 20px;
@@ -103,9 +107,9 @@ body{
     display: flex;
     background-color: white;
     margin: 0 auto;
-    width: 450px;
+    width: 88%;
     justify-content: space-between;
-    padding: 1%;
+    padding: 1% 5%;
     border-radius: 10px;
     box-shadow: 5px;
     border: 1px solid rgba(0,0,0,0.1);
@@ -114,6 +118,7 @@ body{
     top: 42%;
     margin: 0 0 0 25px;
     height: 90px;
+    max-width: 450px;
 }
 .middle .button2 .text .title{
     font-size: 20px;
