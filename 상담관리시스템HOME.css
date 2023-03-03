@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, li{
+    list-style: none;
+}
+
+body{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 342px;
+    background-color: rgb(13,76,62);
+}
+.header .headertop{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 4% 0 0 0;
+}
+.header .headertop .logo{
+    width: 25%;
+}
+.header .headertop .fa-bell{
+    font-size: 170%;
+    color: white;
+}
+.header .headermid{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10% 0 0 0;
+    font-size: 180%;
+    color: white;
+}
+.header .headermid .titletext{
+    font-weight: 400;
+}
+.header .headerbottom{
+    width: 90%;
+    margin: 0 auto;
+    color: rgb(136, 166, 159);
+    padding: 2% 0 0 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+.header .headerbottom .icon{
+    width: 115px;
+    position: absolute;
+    top: 15%;
+    margin: 0 0 0 340px;
+}
+.middle{
+    background-color: rgb(245,245,245);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 530px;
+}
+.middle .button1{
+    display: flex;
+    background-color: white;
+    margin: 0 auto;
+    width: 450px;
+    justify-content: space-between;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    margin: 0 0 0 25px;
+    height: 90px;
+}
+.middle .button1 .text .title{
+    font-size: 20px;
+}
+.middle .button1 .text .sub{
+    font-size: 14px;
+    color: rgba(0,0,0,0.7)
+}
+.middle .button1 .right{
+    display: flex;
+    align-items: center;
+}
+.middle .button1 .right .icon{
+    width: 75px;
+}
+.middle .button2{
+    display: flex;
+    background-color: white;
+    margin: 0 auto;
+    width: 450px;
+    justify-content: space-between;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    align-items: center;
+    position: absolute;
+    top: 42%;
+    margin: 0 0 0 25px;
+    height: 90px;
+}
+.middle .button2 .text .title{
+    font-size: 20px;
+}
+.middle .button2 .right{
+    display: flex;
+    align-items: center;
+}
+.middle .button2 .right .icon{
+    width: 60px;
+}
+.footer{
+    display: flex;
+}
+.footer .tap1{
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 97px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer .tap2{
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 97px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer .tap3{
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 97px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer .tap4{
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 97px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer .tap5{
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 97px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer .fa-solid{
+    margin: 20px 0 5px 0;
+    font-size: 25px;
+    color: rgba(0,0,0,0.5);
+}
+.footer .fa-regular{
+    margin: 20px 0 5px 0;
+    font-size: 25px;
+    color: rgba(0,0,0,0.5);
+}
+.footer .fa-house{
+    color: black;
+}
