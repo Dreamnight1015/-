@@ -20,7 +20,7 @@ body{
 
 .header{
     width: 100%;
-    height: 34%;
+    height: 34vh;
     background-color: rgb(13,76,62);
 }
 .header .headertop{
@@ -41,7 +41,7 @@ body{
 .header .headermid{
     width: 90%;
     margin: 0 auto;
-    padding: 10% 0 0 0;
+    padding: 7% 0 0 0;
     font-size: 180%;
     color: white;
 }
@@ -178,12 +178,12 @@ body{
     cursor: pointer;
 }
 .footer .fa-solid{
-    margin: 20px 0 5px 0;
+    margin: 10px 0 5px 0;
     font-size: 25px;
     color: rgba(0,0,0,0.5);
 }
 .footer .fa-regular{
-    margin: 20px 0 5px 0;
+    margin: 10px 0 5px 0;
     font-size: 25px;
     color: rgba(0,0,0,0.5);
 }

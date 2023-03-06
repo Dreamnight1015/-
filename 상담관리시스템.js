@@ -7,4 +7,7 @@ $(document).ready(function(){
             return false;
         };
     });
+    $('.tap2').click(function(){
+        
+    })
 })
