@@ -178,15 +178,15 @@ body{
     cursor: pointer;
 }
 .footer .fa-solid{
-    margin: 10px 0 5px 0;
+    margin: 15% 0 15% 0;
     font-size: 25px;
     color: rgba(0,0,0,0.5);
 }
 .footer .fa-regular{
-    margin: 10px 0 5px 0;
+    margin: 15% 0 15% 0;
     font-size: 25px;
     color: rgba(0,0,0,0.5);
 }
 .footer .fa-house{
-    color: black;
+    color: rgb(13,76,62);
 }
